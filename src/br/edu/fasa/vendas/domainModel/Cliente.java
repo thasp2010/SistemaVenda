@@ -8,7 +8,7 @@ package br.edu.fasa.vendas.domainModel;
  *
  * @author thais
  */
-public class Vendas {
+public class Cliente {
     
     private int cod;
     private String nome;
@@ -28,6 +28,8 @@ public class Vendas {
     public void setNome(String nome) {
         this.nome = nome;
     }
+    
+    
     
     
 }

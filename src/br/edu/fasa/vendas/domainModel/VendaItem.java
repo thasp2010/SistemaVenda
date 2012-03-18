@@ -8,7 +8,7 @@ package br.edu.fasa.vendas.domainModel;
  *
  * @author thais
  */
-public class VendasItens {
+public class VendaItem {
     
     private int cod;
     private int venda;

@@ -8,9 +8,10 @@ package br.edu.fasa.vendas.domainModel;
  *
  * @author thais
  */
-public class Produtos {
+public class Venda {
     
     private int cod;
+    private String nome;
 
     public int getCod() {
         return cod;
@@ -20,14 +21,6 @@ public class Produtos {
         this.cod = cod;
     }
 
-    public int getEstoque() {
-        return estoque;
-    }
-
-    public void setEstoque(int estoque) {
-        this.estoque = estoque;
-    }
-
     public String getNome() {
         return nome;
     }
@@ -35,18 +28,6 @@ public class Produtos {
     public void setNome(String nome) {
         this.nome = nome;
     }
-
-    public float getValor() {
-        return valor;
-    }
-
-    public void setValor(float valor) {
-        this.valor = valor;
-    }
-    private String nome;
-    private float valor;
-    private int estoque;
-    
     
     
 }
