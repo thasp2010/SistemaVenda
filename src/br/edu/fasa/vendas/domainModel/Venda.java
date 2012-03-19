@@ -3,6 +3,7 @@
  * and open the template in the editor.
  */
 package br.edu.fasa.vendas.domainModel;
+import java.util.Date;
 
 /**
  *
@@ -12,7 +13,9 @@ public class Venda {
     
     private int cod;
     private String nome;
+    private Date data;
 
+   
     public int getCod() {
         return cod;
     }
@@ -27,6 +30,14 @@ public class Venda {
 
     public void setNome(String nome) {
         this.nome = nome;
+    }
+    
+     public Date getData() {
+        return data;
+    }
+
+    public void setData(Date data) {
+        this.data = data;
     }
     
     
